@@ -64,7 +64,7 @@ public class WeatherActivity extends AppCompatActivity {
         drawerLayout=findViewById(R.id.drawer_layout);
         navButton=findViewById(R.id.nav_button);
         swipeRefresh=findViewById(R.id.swipe_refresh);
-        swipeRefresh.setColorSchemeColors(R.color.colorPrimary);
+        swipeRefresh.setColorSchemeResources(R.color.colorPrimary);
         bingPicImg=findViewById(R.id.bing_pic_img);
         weatherLayout=findViewById(R.id.weather_layout);
         titleCity=findViewById(R.id.title_city);
